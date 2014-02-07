@@ -7,7 +7,8 @@ The file should be set to run in Task Scheduler.
 
 **SETUP**
 1) Insert your domain address for the $EmailFrom variable in line 7
-2) replace the comment in line 63 with your email address so that you will receive the results.
+2) Replace the comment in line 63 with your email address so that you will receive the results.
+3) Replace the comment in line 43 and 63 with your SMTP Server address
 
 
 
