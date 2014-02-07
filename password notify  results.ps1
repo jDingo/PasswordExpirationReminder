@@ -40,7 +40,7 @@ Thank You,
 IT Department"
 
 
-				Send-MailMessage -From $EmailFrom -To $User.EmailAddress -Subject $Subject -Body $Body -SmtpServer "10.8.24.40"
+				Send-MailMessage -From $EmailFrom -To $User.EmailAddress -Subject $Subject -Body $Body -SmtpServer "<# SERVER_ADDRESS #>"
 				$Results += @($User.EmailAddress)
 				$x += 1
 				$User.EmailAddress
@@ -60,4 +60,4 @@ _________________________________________________________
 $Results"
 
 
-Send-MailMessage -From $EmailFrom -To <# YOUR_EMAIL#>  -Subject $SubjectResults -Body $BodyResults -SmtpServer "10.8.24.40"
+Send-MailMessage -From $EmailFrom -To <# YOUR_EMAIL#>  -Subject $SubjectResults -Body $BodyResults -SmtpServer "<# SERVER_ADDRESS #>"
